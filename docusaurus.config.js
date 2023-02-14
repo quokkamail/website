@@ -1,5 +1,4 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
@@ -8,25 +7,17 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Quokka",
   tagline: "Modern Mail Server",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
-  // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://quokkamail.org",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "alessiodionisi", // Usually your GitHub org/user name.
-  projectName: "quokka", // Usually your repo name.
+  organizationName: "quokkamail",
+  projectName: "website",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -39,14 +30,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/alessiodionisi/quokka/website/",
+          editUrl: "https://github.com/quokkamail/website/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/alessiodionisi/quokka/website/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          editUrl: "https://github.com/quokkamail/website/",
         },
       }),
     ],
@@ -55,14 +43,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/social.png",
       navbar: {
-        // title: "Quokka",
         logo: {
           alt: "Quokka Logo",
-          src: "img/logo-black.png",
-          srcDark: "img/logo-white.png",
+          src: "img/logo.png",
+          srcDark: "img/logo-dark.png",
         },
         items: [
           {
@@ -71,9 +57,9 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/alessiodionisi/quokka",
+            href: "https://github.com/quokkamail/quokka",
             label: "GitHub",
             position: "right",
           },
@@ -81,47 +67,6 @@ const config = {
       },
       footer: {
         style: "dark",
-        // links: [
-        //   {
-        //     title: "Docs",
-        //     items: [
-        //       {
-        //         label: "Tutorial",
-        //         to: "/docs/intro",
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: "Community",
-        //     items: [
-        //       {
-        //         label: "Stack Overflow",
-        //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
-        //       },
-        //       {
-        //         label: "Discord",
-        //         href: "https://discordapp.com/invite/docusaurus",
-        //       },
-        //       {
-        //         label: "Twitter",
-        //         href: "https://twitter.com/docusaurus",
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: "More",
-        //     items: [
-        //       {
-        //         label: "Blog",
-        //         to: "/blog",
-        //       },
-        //       {
-        //         label: "GitHub",
-        //         href: "https://github.com/facebook/docusaurus",
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright:
           "Made with ❤️ by Quokka contributors. Built with Docusaurus.",
       },
