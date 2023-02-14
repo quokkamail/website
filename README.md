@@ -1,6 +1,6 @@
 # Quokka Website
 
-Quokka ebsite built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Quokka website built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
