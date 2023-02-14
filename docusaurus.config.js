@@ -30,11 +30,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/quokkamail/website/",
+          editUrl: "https://github.com/quokkamail/website/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/quokkamail/website/",
+          editUrl: "https://github.com/quokkamail/website/edit/main/",
         },
       }),
     ],
