@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Quokka",
   tagline: "Modern Mail Server",
-  favicon: "img/favicon.png",
+  favicon: "img/logo.png",
 
   url: "https://quokkamail.org",
   baseUrl: "/",
@@ -43,12 +43,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/social.png",
+      // image: "img/social.png",
       navbar: {
+        title: "Quokka",
         logo: {
           alt: "Quokka Logo",
           src: "img/logo.png",
-          srcDark: "img/logo-dark.png",
         },
         items: [
           {
