@@ -10,7 +10,7 @@
 
 - `SIZE` [RFC 1070](https://datatracker.ietf.org/doc/html/rfc1070) SMTP Service Extension
   for Message Size Declaration
-- `STARTTLS` [RFC 3207](https://datatracker.ietf.org/doc/html/rfc3207) SMTP Service Extension for
+- `STARTTLS` [RFC 3207](https://datatracker.ietf.org/doc/html/rfc3207) SMTP Service Extension for Secure SMTP over Transport Layer Security
 - `AUTH` [RFC 4954](https://datatracker.ietf.org/doc/html/rfc4954) SMTP Service Extension for Authentication
 - `8BITMIME` [RFC 6152](https://datatracker.ietf.org/doc/html/rfc6152) SMTP Service Extension for 8-bit MIME Transport
 - `SMTPUTF8` [RFC 6531](https://datatracker.ietf.org/doc/html/rfc6531) SMTP Extension for Internationalized Email
