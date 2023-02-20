@@ -15,6 +15,6 @@
 - `SMTPUTF8` [RFC 6531](https://datatracker.ietf.org/doc/html/rfc6531) SMTP Extension for Internationalized Email
 - `STARTTLS` [RFC 3207](https://datatracker.ietf.org/doc/html/rfc3207) SMTP Service Extension for Secure SMTP over Transport Layer Security
 
-## SASL Mechanisms for AUTH extension
+### SASL Mechanisms for AUTH extension
 
 - `PLAIN` [RFC 4616](https://datatracker.ietf.org/doc/html/rfc4616) The PLAIN Simple Authentication and Security Layer (SASL) Mechanism
