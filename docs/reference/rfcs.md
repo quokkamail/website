@@ -10,7 +10,6 @@
 
 - `8BITMIME` [RFC 6152](https://datatracker.ietf.org/doc/html/rfc6152) SMTP Service Extension for 8-bit MIME Transport
 - `AUTH` [RFC 4954](https://datatracker.ietf.org/doc/html/rfc4954) SMTP Service Extension for Authentication
-- `ENHANCEDSTATUSCODES` [RFC 2034](https://datatracker.ietf.org/doc/html/rfc2034) SMTP Service Extension for Returning Enhanced Error Codes
 - `PIPELINING` [RFC 2920](https://datatracker.ietf.org/doc/html/rfc2920) SMTP Service Extension for Command Pipelining
 - `SIZE` [RFC 1870](https://datatracker.ietf.org/doc/html/rfc1870) SMTP Service Extension for Message Size Declaration
 - `SMTPUTF8` [RFC 6531](https://datatracker.ietf.org/doc/html/rfc6531) SMTP Extension for Internationalized Email
