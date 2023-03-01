@@ -17,4 +17,6 @@
 
 ### SASL Mechanisms for AUTH extension
 
+Available mechanisms list: https://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xhtml
+
 - `PLAIN` [RFC 4616](https://datatracker.ietf.org/doc/html/rfc4616) The PLAIN Simple Authentication and Security Layer (SASL) Mechanism
