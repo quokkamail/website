@@ -20,3 +20,7 @@
 Available mechanisms list: https://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xhtml
 
 - `PLAIN` [RFC 4616](https://datatracker.ietf.org/doc/html/rfc4616) The PLAIN Simple Authentication and Security Layer (SASL) Mechanism
+
+## Other
+
+- [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208) Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1
