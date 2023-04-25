@@ -5,6 +5,9 @@
 - [RFC 5321](https://datatracker.ietf.org/doc/html/rfc5321) Simple Mail Transfer Protocol
 - [RFC 6409](https://datatracker.ietf.org/doc/html/rfc6409) Message Submission for Mail
 - [RFC 8314](https://datatracker.ietf.org/doc/html/rfc8314) Cleartext Considered Obsolete: Use of Transport Layer Security (TLS) for Email Submission and Access
+- [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208) Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1
+- [RFC 6376](https://datatracker.ietf.org/doc/html/rfc6376) DomainKeys Identified Mail (DKIM) Signatures
+- [RFC 7489](https://datatracker.ietf.org/doc/html/rfc7489) Domain-based Message Authentication, Reporting, and Conformance (DMARC)
 
 ## SMTP extensions
 
@@ -15,12 +18,16 @@
 - `SMTPUTF8` [RFC 6531](https://datatracker.ietf.org/doc/html/rfc6531) SMTP Extension for Internationalized Email
 - `STARTTLS` [RFC 3207](https://datatracker.ietf.org/doc/html/rfc3207) SMTP Service Extension for Secure SMTP over Transport Layer Security
 
-### SASL Mechanisms for AUTH extension
+### SASL mechanisms for AUTH extension
 
 Available mechanisms list: https://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xhtml
 
 - `PLAIN` [RFC 4616](https://datatracker.ietf.org/doc/html/rfc4616) The PLAIN Simple Authentication and Security Layer (SASL) Mechanism
 
-## Other
+## IMAP core
 
-- [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208) Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1
+- [RFC 3501](https://datatracker.ietf.org/doc/html/rfc3501) INTERNET MESSAGE ACCESS PROTOCOL - VERSION 4rev1
+
+## IMAP extensions
+
+- `STARTTLS` [RFC 2595](https://datatracker.ietf.org/doc/html/rfc2595) Using TLS with IMAP, POP3 and ACAP
